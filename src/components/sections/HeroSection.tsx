@@ -10,7 +10,7 @@ export const HeroSection = () => {
 
   return (
     <section id="hero" className="min-h-[calc(100vh-4rem)] container mx-auto flex flex-col lg:flex-row items-center justify-center py-16 lg:py-24 px-4 sm:px-6 lg:px-8 text-center lg:text-left bg-gradient-to-br from-background to-secondary/30">
-      <div {...animProps} className={`lg:w-1/2 lg:pr-12 ${animProps.className}`}>
+      <div className="jos lg:w-1/2 lg:pr-12" data-jos_animation="fade-up" data-jos_duration="0.7">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-headline mb-6">
           <span className="block text-primary">Saeful Rohman</span>
           Full-Stack Developer
@@ -40,7 +40,7 @@ export const HeroSection = () => {
           </a>
         </div>
       </div>
-      <div className={`lg:w-1/2 mt-12 lg:mt-0 flex justify-center ${animProps.className}`} style={{transitionDelay: '0.2s'}}>
+      <div className="jos lg:w-1/2 mt-12 lg:mt-0 flex justify-center" data-jos_animation="zoom-in" data-jos_duration="0.9">
         <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-primary/50">
           <Image
             src="https://placehold.co/400x400.png"

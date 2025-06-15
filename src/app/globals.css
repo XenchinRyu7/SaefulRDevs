@@ -1,12 +1,13 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 87.8%; /* Light Gray #E0E0E0 */
-    --foreground: 210 10% 23%; /* Dark Gray-Blue for text */
+    --background: 0 0% 87.8%;
+    /* Light Gray #E0E0E0 */
+    --foreground: 210 10% 23%;
+    /* Dark Gray-Blue for text */
 
     --card: 0 0% 93%;
     --card-foreground: 210 10% 23%;
@@ -14,8 +15,10 @@
     --popover: 0 0% 93%;
     --popover-foreground: 210 10% 23%;
 
-    --primary: 180 100% 25.1%; /* Teal #008080 */
-    --primary-foreground: 0 0% 98%; /* White text on Teal */
+    --primary: 180 100% 25.1%;
+    /* Teal #008080 */
+    --primary-foreground: 0 0% 98%;
+    /* White text on Teal */
 
     --secondary: 0 0% 80%;
     --secondary-foreground: 210 10% 23%;
@@ -23,7 +26,8 @@
     --muted: 0 0% 75%;
     --muted-foreground: 210 10% 40%;
 
-    --accent: 180 60% 45%; /* Lighter Teal for hover/secondary accents */
+    --accent: 180 60% 45%;
+    /* Lighter Teal for hover/secondary accents */
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -31,8 +35,9 @@
 
     --border: 0 0% 70%;
     --input: 0 0% 80%;
-    --ring: 180 100% 25.1%; /* Teal for ring */
-    
+    --ring: 180 100% 25.1%;
+    /* Teal for ring */
+
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -51,8 +56,10 @@
   }
 
   .dark {
-    --background: 220 10% 10%; /* Very Dark Blue-Gray */
-    --foreground: 0 0% 85%; /* Light Gray text */
+    --background: 220 10% 10%;
+    /* Very Dark Blue-Gray */
+    --foreground: 0 0% 85%;
+    /* Light Gray text */
 
     --card: 220 10% 15%;
     --card-foreground: 0 0% 85%;
@@ -60,8 +67,10 @@
     --popover: 220 10% 15%;
     --popover-foreground: 0 0% 85%;
 
-    --primary: 180 100% 35%; /* Brighter Teal for dark mode */
-    --primary-foreground: 220 10% 10%; /* Dark text on Teal */
+    --primary: 180 100% 35%;
+    /* Brighter Teal for dark mode */
+    --primary-foreground: 220 10% 10%;
+    /* Dark text on Teal */
 
     --secondary: 220 10% 25%;
     --secondary-foreground: 0 0% 85%;
@@ -69,7 +78,8 @@
     --muted: 220 10% 20%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 180 80% 55%; /* Vibrant Teal for accents */
+    --accent: 180 80% 55%;
+    /* Vibrant Teal for accents */
     --accent-foreground: 220 10% 10%;
 
     --destructive: 0 70% 50%;
@@ -77,8 +87,9 @@
 
     --border: 220 10% 25%;
     --input: 220 10% 20%;
-    --ring: 180 100% 35%; /* Brighter Teal for ring */
-    
+    --ring: 180 100% 35%;
+    /* Brighter Teal for ring */
+
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -96,19 +107,24 @@
   }
 
   .theme-retro {
-    --background: 45 50% 90%; /* Creamy Beige */
-    --foreground: 30 30% 20%; /* Dark Brown */
+    --background: 45 50% 90%;
+    /* Creamy Beige */
+    --foreground: 30 30% 20%;
+    /* Dark Brown */
     --card: 45 50% 93%;
     --card-foreground: 30 30% 20%;
     --popover: 45 50% 93%;
     --popover-foreground: 30 30% 20%;
-    --primary: 25 80% 50%; /* Burnt Orange */
-    --primary-foreground: 45 50% 95%; /* Light Cream */
+    --primary: 25 80% 50%;
+    /* Burnt Orange */
+    --primary-foreground: 45 50% 95%;
+    /* Light Cream */
     --secondary: 30 20% 75%;
     --secondary-foreground: 30 30% 20%;
     --muted: 30 20% 80%;
     --muted-foreground: 30 30% 40%;
-    --accent: 170 40% 40%; /* Muted Teal/Green */
+    --accent: 170 40% 40%;
+    /* Muted Teal/Green */
     --accent-foreground: 45 50% 95%;
     --destructive: 0 70% 45%;
     --destructive-foreground: 45 50% 95%;
@@ -123,21 +139,27 @@
   }
 
   .theme-cyberpunk {
-    --background: 260 50% 5%; /* Very Dark Blue/Purple */
-    --foreground: 180 100% 70%; /* Bright Cyan */
+    --background: 260 50% 5%;
+    /* Very Dark Blue/Purple */
+    --foreground: 180 100% 70%;
+    /* Bright Cyan */
     --card: 260 50% 10%;
     --card-foreground: 180 100% 70%;
     --popover: 260 50% 10%;
     --popover-foreground: 180 100% 70%;
-    --primary: 310 100% 60%; /* Electric Pink */
-    --primary-foreground: 260 50% 90%; /* Very Light Purple/Blue */
+    --primary: 310 100% 60%;
+    /* Electric Pink */
+    --primary-foreground: 260 50% 90%;
+    /* Very Light Purple/Blue */
     --secondary: 260 40% 20%;
     --secondary-foreground: 180 100% 70%;
     --muted: 260 30% 15%;
     --muted-foreground: 180 80% 60%;
-    --accent: 60 100% 55%; /* Bright Yellow */
+    --accent: 60 100% 55%;
+    /* Bright Yellow */
     --accent-foreground: 260 50% 5%;
-    --destructive: 0 100% 55%; /* Bright Red */
+    --destructive: 0 100% 55%;
+    /* Bright Red */
     --destructive-foreground: 260 50% 90%;
     --border: 310 100% 40%;
     --input: 260 40% 12%;
@@ -148,21 +170,25 @@
     --chart-4: 240 80% 70%;
     --chart-5: 30 90% 50%;
   }
-  
+
   .theme-paper {
-    --background: 30 20% 95%; /* Off-white */
-    --foreground: 0 0% 25%; /* Dark Gray (Pencil) */
+    --background: 30 20% 95%;
+    /* Off-white */
+    --foreground: 0 0% 25%;
+    /* Dark Gray (Pencil) */
     --card: 30 20% 98%;
     --card-foreground: 0 0% 25%;
     --popover: 30 20% 98%;
     --popover-foreground: 0 0% 25%;
-    --primary: 210 50% 40%; /* Muted Blue (Ink) */
+    --primary: 210 50% 40%;
+    /* Muted Blue (Ink) */
     --primary-foreground: 30 20% 96%;
     --secondary: 30 15% 88%;
     --secondary-foreground: 0 0% 25%;
     --muted: 30 15% 92%;
     --muted-foreground: 0 0% 45%;
-    --accent: 35 30% 70%; /* Light Sepia/Tan */
+    --accent: 35 30% 70%;
+    /* Light Sepia/Tan */
     --accent-foreground: 0 0% 20%;
     --destructive: 0 60% 50%;
     --destructive-foreground: 30 20% 96%;
@@ -177,19 +203,23 @@
   }
 
   .theme-aurora {
-    --background: 240 60% 8%; /* Deep Space Blue/Black */
-    --foreground: 190 80% 90%; /* Pale Icy Blue/White */
+    --background: 240 60% 8%;
+    /* Deep Space Blue/Black */
+    --foreground: 190 80% 90%;
+    /* Pale Icy Blue/White */
     --card: 240 60% 12%;
     --card-foreground: 190 80% 90%;
     --popover: 240 60% 12%;
     --popover-foreground: 190 80% 90%;
-    --primary: 140 70% 55%; /* Vibrant Green */
+    --primary: 140 70% 55%;
+    /* Vibrant Green */
     --primary-foreground: 240 60% 95%;
     --secondary: 240 50% 20%;
     --secondary-foreground: 190 80% 90%;
     --muted: 240 40% 15%;
     --muted-foreground: 190 70% 75%;
-    --accent: 280 60% 70%; /* Soft Pink/Violet */
+    --accent: 280 60% 70%;
+    /* Soft Pink/Violet */
     --accent-foreground: 240 60% 5%;
     --destructive: 350 80% 60%;
     --destructive-foreground: 240 60% 95%;
@@ -204,30 +234,39 @@
   }
 
   .theme-synthwave {
-    --background: 270 70% 15%; /* Dark Purple/Deep Blue */
-    --foreground: 320 100% 75%; /* Neon Pink text */
+    --background: 270 70% 15%;
+    /* Dark Purple/Deep Blue */
+    --foreground: 320 100% 75%;
+    /* Neon Pink text */
     --card: 270 70% 20%;
     --card-foreground: 320 100% 75%;
     --popover: 270 70% 20%;
     --popover-foreground: 320 100% 75%;
-    --primary: 330 90% 60%; /* Hot Pink */
-    --primary-foreground: 270 70% 90%; /* Light Purple */
+    --primary: 330 90% 60%;
+    /* Hot Pink */
+    --primary-foreground: 270 70% 90%;
+    /* Light Purple */
     --secondary: 270 60% 30%;
     --secondary-foreground: 320 100% 75%;
     --muted: 270 50% 25%;
     --muted-foreground: 320 80% 65%;
-    --accent: 195 100% 50%; /* Electric Blue/Teal */
+    --accent: 195 100% 50%;
+    /* Electric Blue/Teal */
     --accent-foreground: 270 70% 10%;
-    --destructive: 0 100% 65%; /* Laser Red */
+    --destructive: 0 100% 65%;
+    /* Laser Red */
     --destructive-foreground: 270 70% 90%;
     --border: 330 90% 40%;
     --input: 270 60% 22%;
     --ring: 330 90% 60%;
     --chart-1: 330 85% 65%;
     --chart-2: 195 95% 55%;
-    --chart-3: 50 100% 60%; /* Neon Yellow */
-    --chart-4: 290 80% 70%; /* Vibrant Purple */
-    --chart-5: 180 90% 50%; /* Bright Cyan */
+    --chart-3: 50 100% 60%;
+    /* Neon Yellow */
+    --chart-4: 290 80% 70%;
+    /* Vibrant Purple */
+    --chart-5: 180 90% 50%;
+    /* Bright Cyan */
   }
 }
 
@@ -235,15 +274,32 @@
   * {
     @apply border-border;
   }
+
   html {
     @apply scroll-smooth;
+    overflow-x: clip;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+    scrollbar-width: none;
+    overflow-x: clip;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-headline;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
   }
 }
 
@@ -254,6 +310,7 @@
     transition: opacity 0.8s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition-delay: 0.2s;
   }
+
   .scroll-animate.is-visible {
     opacity: 1;
     transform: translateY(0);

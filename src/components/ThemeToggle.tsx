@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -54,6 +53,7 @@ export const ThemeToggle = () => {
   };
 
   const IconComponent = currentIcon();
+  const SystemIcon = themes[7].icon;
 
   return (
     <DropdownMenu>
@@ -116,7 +116,7 @@ export const ThemeToggle = () => {
             )}
           >
             <div className="flex items-center gap-2">
-              <themes[7].icon className="h-4 w-4" />
+              <SystemIcon className="h-4 w-4" />
               <span>{themes[7].name}</span>
             </div>
           </DropdownMenuItem>

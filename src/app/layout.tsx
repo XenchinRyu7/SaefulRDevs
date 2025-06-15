@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { Toaster } from '@/components/ui/toaster';
+import { JOSInit } from '@/components/JOSInit';
 
 export const metadata: Metadata = {
   title: 'Saeful Rohman Dev',
@@ -22,6 +23,7 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased">
         <ThemeProvider>
+          <JOSInit />
           {children}
           <Toaster />
         </ThemeProvider>
