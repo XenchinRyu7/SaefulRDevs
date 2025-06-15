@@ -50,17 +50,17 @@ export const ThemeToggle = () => {
       return effectiveTheme === 'dark' ? Moon : Sun;
     }
     const themeOption = themes.find(t => t.value === selectedTheme);
-    return themeOption ? themeOption.icon : Sun; 
+    return themeOption ? themeOption.icon : Sun;
   };
-  
+
   const IconComponent = currentIcon();
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button 
-          variant="ghost" 
-          size="icon" 
+        <Button
+          variant="ghost"
+          size="icon"
           aria-label={`Selected theme: ${selectedTheme}`}
           className="w-9 h-9 rounded-full hover:bg-accent/50 focus-visible:ring-1 focus-visible:ring-ring"
         >
@@ -84,11 +84,11 @@ export const ThemeToggle = () => {
             </div>
           </DropdownMenuItem>
         ))}
-        
+
         <DropdownMenuSeparator />
-        
+
         {/* Retro, Cyberpunk, Paper, Aurora, Synthwave themes (indices 2 to 6) */}
-        {themes.slice(2, 7).map((theme) => ( 
+        {themes.slice(2, 7).map((theme) => (
           <DropdownMenuItem
             key={theme.value}
             onClick={() => setSelectedTheme(theme.value)}
@@ -103,12 +103,12 @@ export const ThemeToggle = () => {
             </div>
           </DropdownMenuItem>
         ))}
-        
+
         <DropdownMenuSeparator />
-        
+
         {/* System theme option (index 7) */}
         <DropdownMenuItem
-            key={themes[7].value} 
+            key={themes[7].value}
             onClick={() => setSelectedTheme(themes[7].value)}
             className={cn(
               "flex items-center justify-between",
