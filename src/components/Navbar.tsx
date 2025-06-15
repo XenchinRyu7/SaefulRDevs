@@ -9,12 +9,12 @@ import { Menu } from 'lucide-react';
 import React from 'react';
 
 const navItems = [
-  { name: 'Home', href: '#hero' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Experience', href: '#experience' },
-  { name: 'Career', href: '#career' },
-  { name: 'Contributions', href: '#contributions' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Home', href: '/' },
+  { name: 'Skills', href: '/skills' },
+  { name: 'Experience', href: '/experience' },
+  { name: 'Career', href: '/career' },
+  { name: 'Contributions', href: '/contributions' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 export const Navbar = () => {
