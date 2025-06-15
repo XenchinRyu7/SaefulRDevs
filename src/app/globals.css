@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,7 +40,6 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
 
-    /* Sidebar variables (keeping them from original template) */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -85,7 +85,6 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    /* Sidebar variables (dark theme) */
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -94,6 +93,141 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .theme-retro {
+    --background: 45 50% 90%; /* Creamy Beige */
+    --foreground: 30 30% 20%; /* Dark Brown */
+    --card: 45 50% 93%;
+    --card-foreground: 30 30% 20%;
+    --popover: 45 50% 93%;
+    --popover-foreground: 30 30% 20%;
+    --primary: 25 80% 50%; /* Burnt Orange */
+    --primary-foreground: 45 50% 95%; /* Light Cream */
+    --secondary: 30 20% 75%;
+    --secondary-foreground: 30 30% 20%;
+    --muted: 30 20% 80%;
+    --muted-foreground: 30 30% 40%;
+    --accent: 170 40% 40%; /* Muted Teal/Green */
+    --accent-foreground: 45 50% 95%;
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 45 50% 95%;
+    --border: 30 20% 65%;
+    --input: 30 20% 75%;
+    --ring: 25 80% 50%;
+    --chart-1: 25 70% 55%;
+    --chart-2: 170 35% 45%;
+    --chart-3: 40 60% 60%;
+    --chart-4: 15 50% 50%;
+    --chart-5: 200 30% 50%;
+  }
+
+  .theme-cyberpunk {
+    --background: 260 50% 5%; /* Very Dark Blue/Purple */
+    --foreground: 180 100% 70%; /* Bright Cyan */
+    --card: 260 50% 10%;
+    --card-foreground: 180 100% 70%;
+    --popover: 260 50% 10%;
+    --popover-foreground: 180 100% 70%;
+    --primary: 310 100% 60%; /* Electric Pink */
+    --primary-foreground: 260 50% 90%; /* Very Light Purple/Blue */
+    --secondary: 260 40% 20%;
+    --secondary-foreground: 180 100% 70%;
+    --muted: 260 30% 15%;
+    --muted-foreground: 180 80% 60%;
+    --accent: 60 100% 55%; /* Bright Yellow */
+    --accent-foreground: 260 50% 5%;
+    --destructive: 0 100% 55%; /* Bright Red */
+    --destructive-foreground: 260 50% 90%;
+    --border: 310 100% 40%;
+    --input: 260 40% 12%;
+    --ring: 310 100% 60%;
+    --chart-1: 310 90% 65%;
+    --chart-2: 180 90% 55%;
+    --chart-3: 60 90% 60%;
+    --chart-4: 240 80% 70%;
+    --chart-5: 30 90% 50%;
+  }
+  
+  .theme-paper {
+    --background: 30 20% 95%; /* Off-white */
+    --foreground: 0 0% 25%; /* Dark Gray (Pencil) */
+    --card: 30 20% 98%;
+    --card-foreground: 0 0% 25%;
+    --popover: 30 20% 98%;
+    --popover-foreground: 0 0% 25%;
+    --primary: 210 50% 40%; /* Muted Blue (Ink) */
+    --primary-foreground: 30 20% 96%;
+    --secondary: 30 15% 88%;
+    --secondary-foreground: 0 0% 25%;
+    --muted: 30 15% 92%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 35 30% 70%; /* Light Sepia/Tan */
+    --accent-foreground: 0 0% 20%;
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 30 20% 96%;
+    --border: 30 15% 80%;
+    --input: 30 15% 88%;
+    --ring: 210 50% 40%;
+    --chart-1: 210 45% 45%;
+    --chart-2: 35 25% 65%;
+    --chart-3: 0 0% 50%;
+    --chart-4: 120 20% 60%;
+    --chart-5: 20 30% 55%;
+  }
+
+  .theme-aurora {
+    --background: 240 60% 8%; /* Deep Space Blue/Black */
+    --foreground: 190 80% 90%; /* Pale Icy Blue/White */
+    --card: 240 60% 12%;
+    --card-foreground: 190 80% 90%;
+    --popover: 240 60% 12%;
+    --popover-foreground: 190 80% 90%;
+    --primary: 140 70% 55%; /* Vibrant Green */
+    --primary-foreground: 240 60% 95%;
+    --secondary: 240 50% 20%;
+    --secondary-foreground: 190 80% 90%;
+    --muted: 240 40% 15%;
+    --muted-foreground: 190 70% 75%;
+    --accent: 280 60% 70%; /* Soft Pink/Violet */
+    --accent-foreground: 240 60% 5%;
+    --destructive: 350 80% 60%;
+    --destructive-foreground: 240 60% 95%;
+    --border: 140 70% 35%;
+    --input: 240 50% 18%;
+    --ring: 140 70% 55%;
+    --chart-1: 140 65% 60%;
+    --chart-2: 280 55% 75%;
+    --chart-3: 190 75% 80%;
+    --chart-4: 320 60% 65%;
+    --chart-5: 220 70% 70%;
+  }
+
+  .theme-synthwave {
+    --background: 270 70% 15%; /* Dark Purple/Deep Blue */
+    --foreground: 320 100% 75%; /* Neon Pink text */
+    --card: 270 70% 20%;
+    --card-foreground: 320 100% 75%;
+    --popover: 270 70% 20%;
+    --popover-foreground: 320 100% 75%;
+    --primary: 330 90% 60%; /* Hot Pink */
+    --primary-foreground: 270 70% 90%; /* Light Purple */
+    --secondary: 270 60% 30%;
+    --secondary-foreground: 320 100% 75%;
+    --muted: 270 50% 25%;
+    --muted-foreground: 320 80% 65%;
+    --accent: 195 100% 50%; /* Electric Blue/Teal */
+    --accent-foreground: 270 70% 10%;
+    --destructive: 0 100% 65%; /* Laser Red */
+    --destructive-foreground: 270 70% 90%;
+    --border: 330 90% 40%;
+    --input: 270 60% 22%;
+    --ring: 330 90% 60%;
+    --chart-1: 330 85% 65%;
+    --chart-2: 195 95% 55%;
+    --chart-3: 50 100% 60%; /* Neon Yellow */
+    --chart-4: 290 80% 70%; /* Vibrant Purple */
+    --chart-5: 180 90% 50%; /* Bright Cyan */
   }
 }
 
