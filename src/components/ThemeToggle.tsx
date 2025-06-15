@@ -20,12 +20,6 @@ interface ThemeOption {
   icon: React.ElementType;
 }
 
-// Order matches the visual layout in the image:
-// Light, Dark
-// ---
-// Retro, Cyberpunk, Paper, Aurora, Synthwave
-// ---
-// System
 const themes: ThemeOption[] = [
   { name: 'Light', value: 'light', icon: Sun },
   { name: 'Dark', value: 'dark', icon: Moon },
@@ -55,7 +49,6 @@ export const ThemeToggle = () => {
     if (selectedTheme === 'system') {
       return effectiveTheme === 'dark' ? Moon : Sun;
     }
-    // Find the icon for the currently selected theme, default to Sun if not found (should not happen with 'system' handled)
     const themeOption = themes.find(t => t.value === selectedTheme);
     return themeOption ? themeOption.icon : Sun; 
   };
